@@ -7,7 +7,7 @@
 //
 
 #import "CAGradientLayer+BEEAppearance.h"
-#import "NSObject+BEEAppearance.h"
+#import "NSObject+BEEAppearanceInteral.h"
 #import "UIColor+BEEAppearance.h"
 #import <objc/runtime.h>
 

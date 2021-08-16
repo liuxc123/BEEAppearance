@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CA05E626CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CA05E426CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h */; };
+		04CA05E726CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA05E526CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m */; };
 		06662E365F7421EEAEEBD49096513513 /* Pods-BEEAppearance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E71ED19C11A86F1CED685CBDCCD817B6 /* Pods-BEEAppearance_Tests-dummy.m */; };
 		0763E5CED543AFF5B2125B6F4B4C7123 /* Pods-BEEAppearance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5278A053D5A19E7D9EFD4B9393092CCA /* Pods-BEEAppearance_Example-dummy.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
@@ -90,7 +92,9 @@
 
 /* Begin PBXFileReference section */
 		013007BFACF3846EAE7EF5ADF35F41D6 /* NSMutableAttributedString+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BEEAppearance.m"; sourceTree = "<group>"; };
-		029E4200383B025A3560DD181B96D10D /* BEEAppearance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BEEAppearance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		029E4200383B025A3560DD181B96D10D /* BEEAppearance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BEEAppearance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		04CA05E426CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BEEAppearanceInteral.h"; sourceTree = "<group>"; };
+		04CA05E526CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BEEAppearanceInteral.m"; sourceTree = "<group>"; };
 		074E453DB38A39882926DFDED2ADB55A /* Pods-BEEAppearance_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Tests-Info.plist"; sourceTree = "<group>"; };
 		08363E963730F44BF96B9AD7837CC9A2 /* Pods-BEEAppearance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0F13A50569A80861D859B0C9169CC397 /* BEEAppearanceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEAppearanceManager.h; sourceTree = "<group>"; };
@@ -105,10 +109,10 @@
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		28875822AC431BBAE733CAEB0181EF9E /* UIView+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BEEAppearance.h"; sourceTree = "<group>"; };
-		2B6C087B329CE3708E571BB256DB89FC /* BEEAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEEAppearance.framework; path = BEEAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6C087B329CE3708E571BB256DB89FC /* BEEAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEEAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2EEFD33F26A85D526CDB7BC232D41F /* UIImage+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BEEAppearance.m"; sourceTree = "<group>"; };
 		3C5084C54FB1D67CB518E95F1A792CED /* BEEAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEAppearance-prefix.pch"; sourceTree = "<group>"; };
-		3D64352EF75F2EE9FD1645535533D82F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D64352EF75F2EE9FD1645535533D82F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		43001FA6797A3D881EC685A50D46F6D4 /* BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEEAppearance.h; path = BEEAppearance/Classes/BEEAppearance.h; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -117,7 +121,7 @@
 		4D0EB235FC55304477F546F42765C5B0 /* Pods-BEEAppearance_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEEAppearance_Example.modulemap"; sourceTree = "<group>"; };
 		5278A053D5A19E7D9EFD4B9393092CCA /* Pods-BEEAppearance_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEEAppearance_Example-dummy.m"; sourceTree = "<group>"; };
 		5429251520894152661E807ED87C90F5 /* BEEAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEAppearance.release.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAC5AFF47C0BB1532764181B574BF81 /* UIColor+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BEEAppearance.h"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		67F896E770248D19560BED0EAFDA4A6F /* NSObject+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BEEAppearance.h"; sourceTree = "<group>"; };
@@ -137,12 +141,12 @@
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		977C12BA9E4DA8BADA0D7ADF37F8745A /* BEEAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEAppearance.debug.xcconfig; sourceTree = "<group>"; };
-		97A4D0EC1764475C40125D09F3073941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		97A4D0EC1764475C40125D09F3073941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9946FC0EB8AE2993D06DE4FE502FAE1A /* Pods-BEEAppearance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		99CCC614D60A9BF088B150275CBB2CF6 /* Pods-BEEAppearance_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B5B534B09953BFAA9B0A9A9D809B304 /* Pods-BEEAppearance_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEEAppearance_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A41C2A114F3779473795D57AC7E6B4A3 /* Pods-BEEAppearance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A94016E7BA486908F19300E1DD534A7D /* Pods-BEEAppearance_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEEAppearance_Tests.modulemap"; sourceTree = "<group>"; };
 		AA2B1D32F3D2B79CAD66EA113434A8FA /* Pods-BEEAppearance_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -157,7 +161,7 @@
 		C81883369596395E0E66ABC465A972B9 /* BEEAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEEAppearance-dummy.m"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CCE7DFAF920B7F46813D71C59B88686B /* CAGradientLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+BEEAppearance.m"; sourceTree = "<group>"; };
-		D03AECC168780760B4A4116769D56662 /* Pods_BEEAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEEAppearance_Tests.framework; path = "Pods-BEEAppearance_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03AECC168780760B4A4116769D56662 /* Pods_BEEAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEEAppearance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D3BF51936A2CB4FBDFF31A6786CF5313 /* Pods-BEEAppearance_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEEAppearance_Example-umbrella.h"; sourceTree = "<group>"; };
 		D7AEBF0C2D03172B6E56B83724546C51 /* CAShapeLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+BEEAppearance.h"; sourceTree = "<group>"; };
@@ -169,7 +173,7 @@
 		E71ED19C11A86F1CED685CBDCCD817B6 /* Pods-BEEAppearance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEEAppearance_Tests-dummy.m"; sourceTree = "<group>"; };
 		F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F3622BC41D8F1E0A1EF9422BFFFDE57E /* BEEAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEEAppearance-Info.plist"; sourceTree = "<group>"; };
-		F5C271C0C70577FD9D2E59F33C215BC4 /* Pods_BEEAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEEAppearance_Example.framework; path = "Pods-BEEAppearance_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C271C0C70577FD9D2E59F33C215BC4 /* Pods_BEEAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEEAppearance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DDD4E2C14F9F470489942DC99796E1 /* BEEAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEEAppearance.modulemap; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,10 +233,10 @@
 				013007BFACF3846EAE7EF5ADF35F41D6 /* NSMutableAttributedString+BEEAppearance.m */,
 				E07F4A22E4236784A08C34FCAD71D81A /* NSMutableDictionary+BEEAppearance.h */,
 				DDD7B86D190E9CAA4579938D4E666355 /* NSMutableDictionary+BEEAppearance.m */,
-				67F896E770248D19560BED0EAFDA4A6F /* NSObject+BEEAppearance.h */,
-				12624DD24F5DA0E10686F1A20BA40DE5 /* NSObject+BEEAppearance.m */,
 				28875822AC431BBAE733CAEB0181EF9E /* UIView+BEEAppearance.h */,
 				8C3201525B43E4D93BE20258D0AB61F2 /* UIView+BEEAppearance.m */,
+				04CA05E426CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h */,
+				04CA05E526CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m */,
 			);
 			name = Extensions;
 			path = BEEAppearance/Classes/Extensions;
@@ -297,6 +301,8 @@
 				B9113A5EDE702DE179E57E0948ED0CD1 /* UIColor+BEEAppearance.m */,
 				92180F659519AF440EDB6BF24EDAC3E3 /* UIImage+BEEAppearance.h */,
 				2D2EEFD33F26A85D526CDB7BC232D41F /* UIImage+BEEAppearance.m */,
+				67F896E770248D19560BED0EAFDA4A6F /* NSObject+BEEAppearance.h */,
+				12624DD24F5DA0E10686F1A20BA40DE5 /* NSObject+BEEAppearance.m */,
 			);
 			name = Core;
 			path = BEEAppearance/Classes/Core;
@@ -402,7 +408,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -479,6 +484,7 @@
 			files = (
 				2E4BB91D631061E30FEEF32C4A4B8AAF /* BEEAppearance-umbrella.h in Headers */,
 				6D36743E0D09624C45F65F50F8D388B0 /* BEEAppearance.h in Headers */,
+				04CA05E626CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h in Headers */,
 				C5EAD6DEB992FD1620A664249434501B /* BEEAppearanceDefine.h in Headers */,
 				722C9C44195638952DCC0682B94DEB35 /* BEEAppearanceManager.h in Headers */,
 				F7729CD88CC014F668822A03C126D8E5 /* CAGradientLayer+BEEAppearance.h in Headers */,
@@ -672,6 +678,7 @@
 				6E9E6E8FFC13FD014071FB0CB68B5430 /* NSMutableDictionary+BEEAppearance.m in Sources */,
 				91D312330040305F3EFD053EC2A5C251 /* NSObject+BEEAppearance.m in Sources */,
 				E015BD66BD4786D0A5D5EF4194A40CAF /* UIColor+BEEAppearance.m in Sources */,
+				04CA05E726CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m in Sources */,
 				7B7FB6B271753FEBA00BB1C24CC5C1FE /* UIImage+BEEAppearance.m in Sources */,
 				8D19F9077513B395526315EEB660795E /* UIView+BEEAppearance.m in Sources */,
 			);
@@ -1028,8 +1035,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

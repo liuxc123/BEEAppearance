@@ -10,7 +10,7 @@
 #import "BEEAppearanceManager.h"
 #import "UIColor+BEEAppearance.h"
 #import "UIImage+BEEAppearance.h"
-#import "NSObject+BEEAppearance.h"
+#import "NSObject+BEEAppearanceInteral.h"
 #import "NSMutableAttributedString+BEEAppearance.h"
 #import "NSMutableDictionary+BEEAppearance.h"
 #import "CALayer+BEEAppearance.h"

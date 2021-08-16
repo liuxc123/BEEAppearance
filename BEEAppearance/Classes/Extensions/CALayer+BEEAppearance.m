@@ -7,7 +7,7 @@
 //
 
 #import "CALayer+BEEAppearance.h"
-#import "NSObject+BEEAppearance.h"
+#import "NSObject+BEEAppearanceInteral.h"
 #import "UIColor+BEEAppearance.h"
 #import "UIImage+BEEAppearance.h"
 #import "CATextLayer+BEEAppearance.h"
