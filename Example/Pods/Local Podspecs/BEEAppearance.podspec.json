@@ -1,0 +1,23 @@
+{
+  "name": "BEEAppearance",
+  "version": "0.0.1",
+  "summary": "A theme programme of BEEAppearance.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuxc123/BEEAppearance",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuxc123": "lxc_work@126.com"
+  },
+  "source": {
+    "git": "https://github.com/liuxc123/BEEAppearance.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BEEAppearance/Classes/**/*",
+  "frameworks": "UIKit"
+}

@@ -1,0 +1,6 @@
+framework module BEEAppearance {
+  umbrella header "BEEAppearance-umbrella.h"
+
+  export *
+  module * { export * }
+}

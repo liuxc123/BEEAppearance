@@ -1,0 +1,27 @@
+PODS:
+  - BEEAppearance (0.0.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BEEAppearance (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BEEAppearance:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BEEAppearance: 057cecd74f92d734b8cd577ce929580cc9eb64de
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: fb4be0c20d6b11fca97fbaa774e802ee8235b020
+
+COCOAPODS: 1.10.1
