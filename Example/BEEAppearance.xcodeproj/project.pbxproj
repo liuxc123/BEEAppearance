@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04CA05D826CA021600365CF5 /* BEESecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA05D726CA021600365CF5 /* BEESecondViewController.m */; };
-		04CA05DB26CA039B00365CF5 /* BEETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA05DA26CA039B00365CF5 /* BEETabBarController.m */; };
 		04CA05DE26CA2B3600365CF5 /* theme_default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CA05DD26CA2B3600365CF5 /* theme_default.plist */; };
 		04CA05E026CA2BBB00365CF5 /* theme_dark.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CA05DF26CA2BBB00365CF5 /* theme_dark.plist */; };
 		3068CF94D307D84FC27F153F /* Pods_BEEAppearance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCF3D89916B8E1F321E9956 /* Pods_BEEAppearance_Tests.framework */; };
@@ -43,8 +42,6 @@
 /* Begin PBXFileReference section */
 		04CA05D626CA021600365CF5 /* BEESecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEESecondViewController.h; sourceTree = "<group>"; };
 		04CA05D726CA021600365CF5 /* BEESecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEESecondViewController.m; sourceTree = "<group>"; };
-		04CA05D926CA039B00365CF5 /* BEETabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEETabBarController.h; sourceTree = "<group>"; };
-		04CA05DA26CA039B00365CF5 /* BEETabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEETabBarController.m; sourceTree = "<group>"; };
 		04CA05DD26CA2B3600365CF5 /* theme_default.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = theme_default.plist; sourceTree = "<group>"; };
 		04CA05DF26CA2BBB00365CF5 /* theme_dark.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = theme_dark.plist; sourceTree = "<group>"; };
 		04CA05E326CA2E4900365CF5 /* ThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
@@ -161,8 +158,6 @@
 				6003F5A6195388D20070C39A /* BEEViewController.m */,
 				04CA05D626CA021600365CF5 /* BEESecondViewController.h */,
 				04CA05D726CA021600365CF5 /* BEESecondViewController.m */,
-				04CA05D926CA039B00365CF5 /* BEETabBarController.h */,
-				04CA05DA26CA039B00365CF5 /* BEETabBarController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -414,7 +409,6 @@
 				04CA05D826CA021600365CF5 /* BEESecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BEEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BEEViewController.m in Sources */,
-				04CA05DB26CA039B00365CF5 /* BEETabBarController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

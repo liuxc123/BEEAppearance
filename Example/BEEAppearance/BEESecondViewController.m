@@ -18,10 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"Second View";
-    
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
-    tableView.separatorColor  = BEEAppearanceColor(@"backgroundColor");
+    self.title = @"Second";
+    self.view.backgroundColor = BEEAppearanceColor(@"backgroundColor");
     
 }
 
