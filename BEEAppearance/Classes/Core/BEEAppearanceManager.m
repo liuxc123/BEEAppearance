@@ -107,7 +107,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
 + (UIColor *)themeColor:(NSString *)colorName {
     BEEAppearanceManager *manager = [BEEAppearanceManager sharedManager];
     NSString *value = manager.themeConfigs[manager.currentName][@"color"][colorName];
-    UIColor *color = [UIColor colorWithHexString:value];
+    UIColor *color = [UIColor colorWithHexString:value] ?: [UIColor clearColor];
     color.colorName = colorName;
     return color;
 }

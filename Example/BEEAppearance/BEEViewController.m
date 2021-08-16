@@ -22,8 +22,15 @@
 {
     [super viewDidLoad];
     
+    [self setupNavigationBar];
+    
+    [self setupUI];
+    
+    [self setupNotification];
+}
+
+- (void)setupNavigationBar {
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: BEEAppearanceColor(@"textLabel1")};
-//    self.navigationController.navigationBar.barTintColor = BEEAppearanceColor(@"backgroundColor");
     self.navigationController.navigationBar.tintColor = BEEAppearanceColor(@"textLabel1");
     
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"添加主题" style:UIBarButtonItemStyleDone target:self action:@selector(rightItemAction)];
@@ -37,10 +44,6 @@
             navigationBar.barStyle = UIBarStyleDefault;
         }
     };
-    
-    [self setupUI];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(themeDidChangeNotification:) name:ThemeDidChangeNotification object:nil];
 }
 
 - (void)setupUI {
@@ -106,6 +109,8 @@
     [button.layer setBorderWidth:0.5f];
     
     [button.layer setCornerRadius:5.0f];
+    
+    [button addTarget:self action:@selector(clickAction) forControlEvents:UIControlEventTouchUpInside];
     
     [self.scrollView addSubview:button];
     
@@ -176,6 +181,10 @@
     [self.scrollView setContentSize:CGSizeMake(self.scrollView.frame.size.width, 560)];
 }
 
+- (void)setupNotification {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(themeDidChangeNotification:) name:ThemeDidChangeNotification object:nil];
+}
+
 #pragma mark - 右点击事件
 
 - (void)rightItemAction{
@@ -187,8 +196,11 @@
             [[BEEAppearanceManager sharedManager] changeTheme:@"default"];
         }
     }];
-    
-    NSLog(@"currentThemeName:%@",  [[BEEAppearanceManager sharedManager] currentThemeName]);
+}
+
+- (void)clickAction {
+    BEESecondViewController *vc = [BEESecondViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - 单击手势事件
@@ -208,7 +220,7 @@
 #pragma mark - NSNotification
 
 - (void)themeDidChangeNotification:(NSNotification *)notification {
-    NSLog(@"%@", notification.object);
+    NSLog(@"currentTheme:%@", notification.object);
 }
 
 @end
