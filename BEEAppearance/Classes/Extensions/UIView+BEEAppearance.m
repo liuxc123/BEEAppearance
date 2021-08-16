@@ -613,12 +613,13 @@
     }
     
     [item forinUIControlState:^(UIControlState state, UIBarButtonItem * _Nonnull obj) {
+        state = state == 4 ? UIControlStateHighlighted : state;
         [obj forinUIBarMetrics:^(UIBarMetrics metrics, UIBarButtonItem * _Nonnull obj1) {
             UIImage *t_backButtonBackgroundImage = [obj1 backButtonBackgroundImageForState:state barMetrics:metrics];
             if (t_backButtonBackgroundImage.isTheme) {
                 [obj1 setBackButtonBackgroundImage:[t_backButtonBackgroundImage refreshAppearance] forState:state barMetrics:metrics];
             }
-            
+
             [obj1 forinUIBarButtonItemStyle:^(UIBarButtonItemStyle style, UIBarButtonItem * _Nonnull obj2) {
                 UIImage *t_backgroundImage = [obj2 backgroundImageForState:state style:style barMetrics:metrics];
                 if (t_backgroundImage.isTheme) {
@@ -645,6 +646,7 @@
     }
     
     [item forinUIControlState:^(UIControlState state, UIBarButtonItem * _Nonnull obj) {
+        state = state == 4 ? UIControlStateHighlighted : state;
         NSMutableDictionary<NSAttributedStringKey, id> *t_attributes = [[obj titleTextAttributesForState:state] mutableCopy];
         [t_attributes refreshAppearance];
         [obj setTitleTextAttributes:t_attributes forState:state];

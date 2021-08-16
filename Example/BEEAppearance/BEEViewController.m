@@ -104,8 +104,10 @@
     
     [button setTitle:@"点击了这个按钮" forState:UIControlStateHighlighted];
     
-    button.imageEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 10);
+    [button setTitle:@"选择了这个按钮" forState:UIControlStateSelected];
     
+    button.imageEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 10);
+        
     [button.layer setBorderWidth:0.5f];
     
     [button.layer setCornerRadius:5.0f];
@@ -221,6 +223,7 @@
 
 - (void)themeDidChangeNotification:(NSNotification *)notification {
     NSLog(@"currentTheme:%@", notification.object);
+    NSLog(@"%@", [BEEAppearanceManager sharedManager].description);
 }
 
 @end

@@ -56,8 +56,11 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         controlStateArtray = @[
-            @(UIControlStateNormal), @(UIControlStateDisabled),
-            @(UIControlStateSelected), @(UIControlStateFocused), @(UIControlStateHighlighted)
+            @(UIControlStateNormal),
+            @(UIControlStateHighlighted),
+            @(UIControlStateDisabled),
+            @(UIControlStateSelected),
+            @(UIControlStateFocused)
         ];
     });
     return controlStateArtray;

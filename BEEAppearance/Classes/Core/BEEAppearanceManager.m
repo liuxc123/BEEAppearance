@@ -29,7 +29,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
 
 @interface BEEAppearanceManager ()
 
-@property (nonatomic, strong, readwrite) NSString *currentName;
+@property (nonatomic, strong, readwrite) NSString *currentThemeName;
 @property (nonatomic, strong, readwrite) NSMutableDictionary *themeConfigs;
 @property (nonatomic, strong, readwrite) NSHashTable *trackedHashTable;
 
@@ -55,7 +55,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     if (self) {
         _trackedHashTable = [NSHashTable weakObjectsHashTable];
         _themeConfigs = [NSMutableDictionary dictionary];
-        _currentName = @"";
+        _currentThemeName = @"";
     }
     return self;
 }
@@ -69,7 +69,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     NSAssert([[BEEAppearanceManager sharedManager].themeConfigs.allKeys containsObject:themeName], @"所启用的主题不存在 - 请检查是否添加了该%@主题的设置" , themeName);
     
     BEEAppearanceManager *manager = [BEEAppearanceManager sharedManager];
-    manager.currentName = themeName;
+    manager.currentThemeName = themeName;
 }
 
 - (void)addTheme:(NSDictionary<NSString*, NSDictionary<NSString*, NSString*>*> *)config themeName:(NSString *)name {
@@ -87,7 +87,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     
     if (!themeName) { return; }
 
-    self.currentName = themeName;
+    self.currentThemeName = themeName;
     
     __weak typeof(self) weakSelf = self;
     [self.trackedHashTable.allObjects enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -106,7 +106,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
 
 + (UIColor *)themeColor:(NSString *)colorName {
     BEEAppearanceManager *manager = [BEEAppearanceManager sharedManager];
-    NSString *value = manager.themeConfigs[manager.currentName][@"color"][colorName];
+    NSString *value = manager.themeConfigs[manager.currentThemeName][@"color"][colorName];
     UIColor *color = [UIColor colorWithHexString:value] ?: [UIColor clearColor];
     color.colorName = colorName;
     return color;
@@ -114,7 +114,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
 
 + (UIImage *)themeImage:(NSString *)imageName {
     BEEAppearanceManager *manager = [BEEAppearanceManager sharedManager];
-    NSString *value = manager.themeConfigs[manager.currentName][@"image"][imageName];
+    NSString *value = manager.themeConfigs[manager.currentThemeName][@"image"][imageName];
     UIImage *image = [UIImage imageNamed:value];
     image.imageName = imageName;
     return image;
@@ -129,7 +129,7 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     }
     if ([object isKindOfClass:[NSObject class]]) {
         NSObject *obj = object;
-        !obj.themeDidChange ?: obj.themeDidChange(self.currentName, obj);
+        !obj.themeDidChange ?: obj.themeDidChange(self.currentThemeName, obj);
     }
 }
 
@@ -137,20 +137,14 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     [self.trackedHashTable addObject:object];
 }
 
-#pragma mark getters and setters
-
-- (NSString *)currentThemeName {
-    return self.currentName;
-}
-
 #pragma mark - debug
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"%@", self.trackedHashTable];
+    return [NSString stringWithFormat:@"~~~当前主题配置%@", self.themeConfigs];
 }
 
 - (NSString *)debugDescription {
-    return [NSString stringWithFormat:@"%@", self.trackedHashTable];
+    return [NSString stringWithFormat:@"~~~当前主题配置%@\n所有存在控件~~~%@", self.themeConfigs, self.trackedHashTable];
 }
 
 @end

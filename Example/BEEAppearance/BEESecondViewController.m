@@ -8,6 +8,7 @@
 
 #import "BEESecondViewController.h"
 #import "BEEAppearance.h"
+#import "BEEAppearanceDefine.h"
 
 @interface BEESecondViewController ()
 
@@ -20,6 +21,7 @@
     // Do any additional setup after loading the view.
     self.title = @"Second";
     self.view.backgroundColor = BEEAppearanceColor(@"backgroundColor");
+    
     
 }
 
