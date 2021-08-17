@@ -24,9 +24,7 @@
     BEEMainWindow *window = [[BEEMainWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     self.window = window;
-    
-    window.fromSystemTheme = NO;
-    
+        
     window.backgroundColor = [UIColor whiteColor];
     
     [window makeKeyAndVisible];

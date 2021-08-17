@@ -17,7 +17,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // 是否跟随系统切换主题
-        self.fromSystemTheme = YES;
+        self.fromSystemTheme = NO;
         
         // 根据系统样式变化 重新启用相应的主题 以达到同步的效果
         if (@available(iOS 13.0, *)) {
