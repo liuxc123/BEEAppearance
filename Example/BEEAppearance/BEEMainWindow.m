@@ -8,7 +8,7 @@
 
 #import "BEEMainWindow.h"
 #import "BEEAppearance.h"
-#import "Theme/ThemeConstant.h"
+#import "ThemeConstant.h"
 
 @implementation BEEMainWindow
 
@@ -21,7 +21,9 @@
         
         // 根据系统样式变化 重新启用相应的主题 以达到同步的效果
         if (@available(iOS 13.0, *)) {
+            
             if (self.fromSystemTheme) {
+                
                 switch (self.traitCollection.userInterfaceStyle) {
                     case UIUserInterfaceStyleLight:
                         
@@ -49,7 +51,9 @@
     
     // 根据系统样式变化 重新启用相应的主题 以达到同步的效果
     if (@available(iOS 13.0, *)) {
+        
         if (self.fromSystemTheme) {
+            
             switch (self.traitCollection.userInterfaceStyle) {
                 case UIUserInterfaceStyleLight:
                     

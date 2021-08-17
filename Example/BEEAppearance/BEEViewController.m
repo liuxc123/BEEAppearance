@@ -9,7 +9,7 @@
 #import "BEEViewController.h"
 #import "BEEAppearance.h"
 #import "BEESecondViewController.h"
-#import "Theme/ThemeConstant.h"
+#import "ThemeConstant.h"
 
 @interface BEEViewController () <UIScrollViewDelegate>
 

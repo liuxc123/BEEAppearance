@@ -23,6 +23,8 @@
 
     BEEMainWindow *window = [[BEEMainWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    self.window = window;
+    
     window.fromSystemTheme = NO;
     
     window.backgroundColor = [UIColor whiteColor];
@@ -31,8 +33,6 @@
     
     window.rootViewController = [[UINavigationController alloc] initWithRootViewController: [BEEViewController new]];
     
-    self.window = window;
-        
     return YES;
 }
 
