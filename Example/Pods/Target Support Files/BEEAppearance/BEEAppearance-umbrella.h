@@ -13,6 +13,7 @@
 #import "BEEAppearance.h"
 #import "BEEAppearanceDefine.h"
 #import "BEEAppearanceManager.h"
+#import "NSObject+BEEAppearance.h"
 #import "UIColor+BEEAppearance.h"
 #import "UIImage+BEEAppearance.h"
 #import "CAGradientLayer+BEEAppearance.h"
@@ -21,7 +22,7 @@
 #import "CATextLayer+BEEAppearance.h"
 #import "NSMutableAttributedString+BEEAppearance.h"
 #import "NSMutableDictionary+BEEAppearance.h"
-#import "NSObject+BEEAppearance.h"
+#import "NSObject+BEEAppearanceInteral.h"
 #import "UIView+BEEAppearance.h"
 
 FOUNDATION_EXPORT double BEEAppearanceVersionNumber;

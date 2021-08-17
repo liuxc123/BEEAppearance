@@ -29,7 +29,7 @@
 }
 
 + (UIImage *)imageWithThemeProvider:(BEEAppearanceImageThemeProvider)themeProvider {
-    UIImage *tempImage = themeProvider([BEEAppearanceManager sharedManager].currentThemeName);
+    UIImage *tempImage = themeProvider([BEEAppearanceManager sharedManager].currentTheme);
     tempImage.themeProvider = themeProvider;
     return tempImage;
 }
@@ -43,7 +43,7 @@
     
     if (self.themeProvider) {
         BEEAppearanceImageThemeProvider provider = self.themeProvider;
-        tempImage = provider([[BEEAppearanceManager sharedManager] currentThemeName]);
+        tempImage = provider([[BEEAppearanceManager sharedManager] currentTheme]);
         tempImage.themeProvider = provider;
     }
 

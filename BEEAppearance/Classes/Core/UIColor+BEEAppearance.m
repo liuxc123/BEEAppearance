@@ -29,7 +29,7 @@
 }
 
 + (UIColor *)colorWithThemeProvider:(BEEAppearanceColorThemeProvider)themeProvider {
-    UIColor *color = themeProvider([BEEAppearanceManager sharedManager].currentThemeName);
+    UIColor *color = themeProvider([BEEAppearanceManager sharedManager].currentTheme);
     color.themeProvider = themeProvider;
     return color;
 }
@@ -43,7 +43,7 @@
     
     if (self.themeProvider) {
         BEEAppearanceColorThemeProvider provider = self.themeProvider;
-        tempColor = provider([[BEEAppearanceManager sharedManager] currentThemeName]);
+        tempColor = provider([[BEEAppearanceManager sharedManager] currentTheme]);
         tempColor.themeProvider = provider;
     }
     return tempColor;

@@ -9,6 +9,7 @@
 #import "BEEViewController.h"
 #import "BEEAppearance.h"
 #import "BEESecondViewController.h"
+#import "Theme/ThemeConstant.h"
 
 @interface BEEViewController () <UIScrollViewDelegate>
 
@@ -30,6 +31,8 @@
 }
 
 - (void)setupNavigationBar {
+    self.title = @"Main";
+    
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: BEEAppearanceColor(@"textLabel1")};
     self.navigationController.navigationBar.tintColor = BEEAppearanceColor(@"textLabel1");
     
@@ -38,12 +41,13 @@
     
     self.navigationController.navigationBar.themeDidChange = ^(NSString * _Nonnull themeName, id  _Nonnull bindView) {
         UINavigationBar *navigationBar = bindView;
-        if ([themeName isEqualToString:@"dark"]) {
+        if ([themeName isEqualToString: theme_style_dark]) {
             navigationBar.barStyle = UIBarStyleBlack;
         } else {
             navigationBar.barStyle = UIBarStyleDefault;
         }
     };
+    self.navigationController.navigationBar.themeDidChange([BEEAppearanceManager sharedManager].currentTheme, self.navigationController.navigationBar);
 }
 
 - (void)setupUI {
@@ -192,10 +196,10 @@
 - (void)rightItemAction{
     
     [UIView animateWithDuration:0.27 animations:^{
-        if ([[BEEAppearanceManager sharedManager].currentThemeName isEqualToString: @"default"]) {
-            [[BEEAppearanceManager sharedManager] changeTheme:@"dark"];
+        if ([[BEEAppearanceManager sharedManager].currentTheme isEqualToString: theme_style_default]) {
+            [[BEEAppearanceManager sharedManager] changeTheme:theme_style_dark];
         } else {
-            [[BEEAppearanceManager sharedManager] changeTheme:@"default"];
+            [[BEEAppearanceManager sharedManager] changeTheme:theme_style_default];
         }
     }];
 }

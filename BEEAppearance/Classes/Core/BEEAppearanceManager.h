@@ -19,16 +19,18 @@ static NSString * const ThemeDidChangeNotification = @"ThemeDidChangeNotificatio
 
 @interface BEEAppearanceManager : NSObject
 
-@property (nonatomic, strong, readonly) NSString *currentThemeName;
-@property (nonatomic, strong, readonly) NSMutableDictionary *themeConfigs;
+@property (nonatomic, strong, readonly) NSString *currentTheme;
+@property (nonatomic, strong, readonly) NSMutableArray *allTheme;
+@property (nonatomic, strong, readonly) NSMutableDictionary *configInfo;
 @property (nonatomic, strong, readonly) NSHashTable *trackedHashTable;
 
 + (instancetype)sharedManager;
-+ (void)defaultTheme:(NSString *)themeName;
 
 - (void)addTrackedWithObject:(id)object;
 
+- (void)defaultTheme:(NSString *)themeName;
 - (void)addTheme:(NSDictionary<NSString*, NSDictionary<NSString*, NSString*>*> *)config themeName:(NSString *)name;
+- (void)removeTheme:(NSString *)themeName;
 - (void)changeTheme:(NSString *)themeName;
 
 + (NSDictionary *)themeConfig:(NSString *)themeName;

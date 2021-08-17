@@ -8,173 +8,173 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04CA05E626CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CA05E426CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h */; };
-		04CA05E726CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA05E526CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m */; };
 		06662E365F7421EEAEEBD49096513513 /* Pods-BEEAppearance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E71ED19C11A86F1CED685CBDCCD817B6 /* Pods-BEEAppearance_Tests-dummy.m */; };
 		0763E5CED543AFF5B2125B6F4B4C7123 /* Pods-BEEAppearance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5278A053D5A19E7D9EFD4B9393092CCA /* Pods-BEEAppearance_Example-dummy.m */; };
+		082B0F7CEA5509727C64D47866DDC1D3 /* BEEAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844121827E7046539BC310A00C2EA338 /* BEEAppearance-dummy.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D785D4B5B0581702FEB63D26E7C45E /* XCTest.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		17B737DBF540CC37FCDC3285FD295405 /* NSObject+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F896E770248D19560BED0EAFDA4A6F /* NSObject+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3371FA58BE63B44BEA76E3B9661BBE /* NSMutableAttributedString+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEB2041E05E4CFDB6D94FC88FACBE82 /* NSMutableAttributedString+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B307F7D2FC5C45D43EB4BC9434AE8DF /* CAShapeLayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADA3B60DB18322E7A22960074A8F5B6 /* CAShapeLayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B71A87D3B91CA13C9BB0676C2A92C4E /* NSObject+BEEAppearanceInteral.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE449E28473E4C9733259C4170808 /* NSObject+BEEAppearanceInteral.m */; };
 		250BB2D2480A8C2ACBEC4273C8EDC82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
-		2D6EFCB077F0FEFB56E426B67ABDD750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */; };
+		2C1EEFD48E76B0AEF849A74B6B0E1EA9 /* CATextLayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6212EB7F5AE4C5C29A1C68C2093D64 /* CATextLayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA4331C4C55F540F35861A13B44E794 /* NSObject+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFC371F3164C0F78410E3B94B8DB9F7 /* NSObject+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		2E4BB91D631061E30FEEF32C4A4B8AAF /* BEEAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7121EC6702F1370A722A48C801CE02 /* BEEAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264507D64793B8AA56330BA7CD8BB6B8 /* QuartzCore.framework */; };
-		3211BECA40151F8D0EA50BAF8228DFF6 /* NSMutableDictionary+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = E07F4A22E4236784A08C34FCAD71D81A /* NSMutableDictionary+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3420198C7E077253ABE30B3F35F7FFBB /* CAShapeLayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AEBF0C2D03172B6E56B83724546C51 /* CAShapeLayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F768F15A7363494BE5A12537F71716A /* Pods-BEEAppearance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E441B505BF6E5ADEEB50E853BF9F06ED /* Pods-BEEAppearance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE04B0C7AD3B8187A740AB62876E558 /* UIColor+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 67497CAD0AA2BA74088819B6D86780B3 /* UIColor+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		406D62D1924F8D341E694D16B0A52BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
-		4307091D741AAB3D93217930AD20FBA0 /* BEEAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A898E6F42598268825F39DD96A195 /* BEEAppearanceManager.m */; };
-		4D2872A75976B40356F74110F16F7512 /* CAGradientLayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE7DFAF920B7F46813D71C59B88686B /* CAGradientLayer+BEEAppearance.m */; };
+		471A8481057D08BCE0BE9B29FFCFF47C /* NSObject+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3B571E3D52D0231E419FE20C0215C /* NSObject+BEEAppearance.m */; };
+		4D8B2CD994C81822AA9FFD99FB9859CD /* CAGradientLayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8266912E7620EE84A5D11F55E84960 /* CAGradientLayer+BEEAppearance.m */; };
 		4E36A7F8A429A1604326E5A4BA945D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
-		5DD804DC221CAF838431629ABBF5B503 /* UIColor+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAC5AFF47C0BB1532764181B574BF81 /* UIColor+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E40D9AE2FAFF350BF4143B2A7BCBCDE /* BEEAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81883369596395E0E66ABC465A972B9 /* BEEAppearance-dummy.m */; };
-		5F4F6A23A93A73854A5177EA5B7BB40A /* NSMutableAttributedString+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DF81550F3CA79DE702CD64D32740F6 /* NSMutableAttributedString+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D36743E0D09624C45F65F50F8D388B0 /* BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 43001FA6797A3D881EC685A50D46F6D4 /* BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2A67D042FDE86580D61CE82ECF4D71 /* BEEAppearanceDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCB751ED9465AC94249A9BD64A51418 /* BEEAppearanceDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F367E2234B29D95B20DA72C8EBBBC6 /* BEEAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 269081FC1159B2D5D83FDA5887D271B9 /* BEEAppearanceManager.m */; };
+		54B92FF44BB2BA4FB8E7FE1F05125EDD /* UIView+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 287324FACC0B4A9F3EE14D85D9276F29 /* UIView+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		579048D07B73241666B1454C8920C92C /* BEEAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EB0533B354D30490E43B518D2FD6C9 /* BEEAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A4FE4B92CE3E2FE25FDF6E39A673C33 /* UIImage+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D45F5D742186224C8724B6D351D71BE /* UIImage+BEEAppearance.m */; };
+		5BCC2DA0652813A21FB257E7C220DC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
+		607E08EEBE6B17C3787D12B937937D21 /* CAGradientLayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9F032ACBCB6EC6FA2A10F145E29DC8 /* CAGradientLayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6269EC5480AE1DD8632F64DAADE1E3B6 /* NSObject+BEEAppearanceInteral.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A009E6B4D49D95F3F1B0FC7749F1B23 /* NSObject+BEEAppearanceInteral.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		6E9E6E8FFC13FD014071FB0CB68B5430 /* NSMutableDictionary+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD7B86D190E9CAA4579938D4E666355 /* NSMutableDictionary+BEEAppearance.m */; };
-		704AD53613E8AE8301714747556F84CB /* CAShapeLayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB90F978EF28721908F0B5EE7D9623 /* CAShapeLayer+BEEAppearance.m */; };
-		722C9C44195638952DCC0682B94DEB35 /* BEEAppearanceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F13A50569A80861D859B0C9169CC397 /* BEEAppearanceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B7FB6B271753FEBA00BB1C24CC5C1FE /* UIImage+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EEFD33F26A85D526CDB7BC232D41F /* UIImage+BEEAppearance.m */; };
-		80EC1619F00B9470A1566C631F3E4EF1 /* CATextLayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DB8BC9306638D524B5E40293653DF9 /* CATextLayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB1B445DBE673E5B86B7ED29652DF62 /* BEEAppearanceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CD6893EC4B7A893D8BE08857110C90 /* BEEAppearanceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA468525150E3B94F07E4D78F0F0CD9 /* NSMutableDictionary+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A27AF833979030B6E8B7A5A643D3751 /* NSMutableDictionary+BEEAppearance.m */; };
+		824A1EDFBC91D75BECBE76935DDB8F3F /* UIView+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651B8F3DC4C173982921709A9015D12 /* UIView+BEEAppearance.m */; };
+		84D4F480A3984AC678DB1F14905ABE48 /* CALayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1938A222A6D9407115BF2FB906A981 /* CALayer+BEEAppearance.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		8D19F9077513B395526315EEB660795E /* UIView+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3201525B43E4D93BE20258D0AB61F2 /* UIView+BEEAppearance.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90AFA92F9CF39EA9D3F46D46E20C7197 /* UIView+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 28875822AC431BBAE733CAEB0181EF9E /* UIView+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91D312330040305F3EFD053EC2A5C251 /* NSObject+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 12624DD24F5DA0E10686F1A20BA40DE5 /* NSObject+BEEAppearance.m */; };
-		94E2BC77EBA958CEF711C1FF65B10265 /* CALayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 68342837122A22A6D57AD7845607F6B7 /* CALayer+BEEAppearance.m */; };
-		9A32FCBC4FAD7AA6E039CF6436E9D839 /* CALayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = B3AC00327A0D9AA0EFE639052A198DEF /* CALayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F8B77E1C4107FF29DFFD5D0EBD5DAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		AC2C62423FCF35C70CDCC6E45DDEDF4A /* UIImage+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 92180F659519AF440EDB6BF24EDAC3E3 /* UIImage+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B529D3B6AF09177EBE7588A72C2FABB7 /* CALayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB9A7D5E4CDDDFC8E4BA116958A0356 /* CALayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B60239DFA2BAFE67CE0316589E6F2727 /* NSMutableAttributedString+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E12DD769E60ADEBD1CF7D5BC117B5EA5 /* NSMutableAttributedString+BEEAppearance.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5EAD6DEB992FD1620A664249434501B /* BEEAppearanceDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 11257CF18C1545B440E77F45851961F9 /* BEEAppearanceDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85D521385BD4F4FA2D3ED78C3D1E52A /* CATextLayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F274048BE7475BFC13F1DCF5B8719 /* CATextLayer+BEEAppearance.m */; };
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DDB9548D7356DBF112A3F9AE25DBE90B /* NSMutableAttributedString+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 013007BFACF3846EAE7EF5ADF35F41D6 /* NSMutableAttributedString+BEEAppearance.m */; };
-		E015BD66BD4786D0A5D5EF4194A40CAF /* UIColor+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = B9113A5EDE702DE179E57E0948ED0CD1 /* UIColor+BEEAppearance.m */; };
-		E1F9CCD56DB6F6675211DCC7E3C6C7B1 /* CATextLayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF8A27429CF847261C619E3D7E3F8D /* CATextLayer+BEEAppearance.m */; };
+		E509EAB67EB55311CCE53246B93906B8 /* UIImage+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = F711897B2412E227BCBB47AF31C48067 /* UIImage+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8198100D3405B118F78941B03AE4BF0 /* BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = B21571D68671A19CB61BB86159E9CA35 /* BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EFCDD5C02232849D5C6A36ECBAEAAB96 /* NSMutableDictionary+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD15E4AEB3603F2630DC5A892DCDA90 /* NSMutableDictionary+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F255826CC37F35CA817FB7FE892D2B5E /* Pods-BEEAppearance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3BF51936A2CB4FBDFF31A6786CF5313 /* Pods-BEEAppearance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7729CD88CC014F668822A03C126D8E5 /* CAGradientLayer+BEEAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8EC4FC8EA445A6620B2CCA0DF174AE /* CAGradientLayer+BEEAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C5B130836454B8E0ED4FD8E42D8A6D /* CAShapeLayer+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0788EBEA64AA9CB0DA8768C73BCD7FB0 /* CAShapeLayer+BEEAppearance.m */; };
+		FFA3A86C371D5E5F093C5D2CBA585BCE /* UIColor+BEEAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F50395F43E2C16DC05EEEF7FF0EDA4 /* UIColor+BEEAppearance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		170835A6155B30A61AB33B2E67CD233B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3816B3485017D9C5C562050A1DE8B9B;
-			remoteInfo = BEEAppearance;
-		};
-		98589DDFD0DBAAC31A572D2680C07960 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		F7B76E26A7DE79B40E245D1D21AFA192 /* PBXContainerItemProxy */ = {
+		89BDE81247D7D12FFE906106EC08B282 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 189225EAE9FE8526F20C654D15F82F12;
 			remoteInfo = "Pods-BEEAppearance_Example";
 		};
+		9759D27DC1EB626C6A0793622F3F1E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3816B3485017D9C5C562050A1DE8B9B;
+			remoteInfo = BEEAppearance;
+		};
+		F15BA1525B97DEAE7560A5AE6E4DBA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013007BFACF3846EAE7EF5ADF35F41D6 /* NSMutableAttributedString+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BEEAppearance.m"; sourceTree = "<group>"; };
-		029E4200383B025A3560DD181B96D10D /* BEEAppearance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BEEAppearance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		04CA05E426CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BEEAppearanceInteral.h"; sourceTree = "<group>"; };
-		04CA05E526CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BEEAppearanceInteral.m"; sourceTree = "<group>"; };
 		074E453DB38A39882926DFDED2ADB55A /* Pods-BEEAppearance_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Tests-Info.plist"; sourceTree = "<group>"; };
+		0788EBEA64AA9CB0DA8768C73BCD7FB0 /* CAShapeLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+BEEAppearance.m"; sourceTree = "<group>"; };
 		08363E963730F44BF96B9AD7837CC9A2 /* Pods-BEEAppearance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0F13A50569A80861D859B0C9169CC397 /* BEEAppearanceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEAppearanceManager.h; sourceTree = "<group>"; };
+		0A009E6B4D49D95F3F1B0FC7749F1B23 /* NSObject+BEEAppearanceInteral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BEEAppearanceInteral.h"; sourceTree = "<group>"; };
+		0D45F5D742186224C8724B6D351D71BE /* UIImage+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BEEAppearance.m"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		11257CF18C1545B440E77F45851961F9 /* BEEAppearanceDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEAppearanceDefine.h; sourceTree = "<group>"; };
-		12624DD24F5DA0E10686F1A20BA40DE5 /* NSObject+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BEEAppearance.m"; sourceTree = "<group>"; };
 		14D785D4B5B0581702FEB63D26E7C45E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1FEB2041E05E4CFDB6D94FC88FACBE82 /* NSMutableAttributedString+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+BEEAppearance.h"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		24DB8BC9306638D524B5E40293653DF9 /* CATextLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+BEEAppearance.h"; sourceTree = "<group>"; };
 		264507D64793B8AA56330BA7CD8BB6B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		267B1C137B1DDA06B2DC7527FD8B44EA /* BEEAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEAppearance.debug.xcconfig; sourceTree = "<group>"; };
+		269081FC1159B2D5D83FDA5887D271B9 /* BEEAppearanceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEEAppearanceManager.m; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		28875822AC431BBAE733CAEB0181EF9E /* UIView+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BEEAppearance.h"; sourceTree = "<group>"; };
-		2B6C087B329CE3708E571BB256DB89FC /* BEEAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEEAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D2EEFD33F26A85D526CDB7BC232D41F /* UIImage+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BEEAppearance.m"; sourceTree = "<group>"; };
-		3C5084C54FB1D67CB518E95F1A792CED /* BEEAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEAppearance-prefix.pch"; sourceTree = "<group>"; };
-		3D64352EF75F2EE9FD1645535533D82F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		287324FACC0B4A9F3EE14D85D9276F29 /* UIView+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BEEAppearance.h"; sourceTree = "<group>"; };
+		2B6C087B329CE3708E571BB256DB89FC /* BEEAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEEAppearance.framework; path = BEEAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1938A222A6D9407115BF2FB906A981 /* CALayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BEEAppearance.m"; sourceTree = "<group>"; };
+		3EB9A7D5E4CDDDFC8E4BA116958A0356 /* CALayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+BEEAppearance.h"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		43001FA6797A3D881EC685A50D46F6D4 /* BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEEAppearance.h; path = BEEAppearance/Classes/BEEAppearance.h; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		47DF81550F3CA79DE702CD64D32740F6 /* NSMutableAttributedString+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+BEEAppearance.h"; sourceTree = "<group>"; };
+		4BCB751ED9465AC94249A9BD64A51418 /* BEEAppearanceDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEAppearanceDefine.h; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4D0EB235FC55304477F546F42765C5B0 /* Pods-BEEAppearance_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEEAppearance_Example.modulemap"; sourceTree = "<group>"; };
 		5278A053D5A19E7D9EFD4B9393092CCA /* Pods-BEEAppearance_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEEAppearance_Example-dummy.m"; sourceTree = "<group>"; };
-		5429251520894152661E807ED87C90F5 /* BEEAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEAppearance.release.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FAC5AFF47C0BB1532764181B574BF81 /* UIColor+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BEEAppearance.h"; sourceTree = "<group>"; };
+		55C4DFF8F2096155AD9B4D92E5E7814E /* BEEAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEEAppearance-Info.plist"; sourceTree = "<group>"; };
+		5651B8F3DC4C173982921709A9015D12 /* UIView+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BEEAppearance.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		67F896E770248D19560BED0EAFDA4A6F /* NSObject+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BEEAppearance.h"; sourceTree = "<group>"; };
-		68342837122A22A6D57AD7845607F6B7 /* CALayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BEEAppearance.m"; sourceTree = "<group>"; };
+		66389BE1CAC6098EFF7AD5EC80761C4C /* BEEAppearance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BEEAppearance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67497CAD0AA2BA74088819B6D86780B3 /* UIColor+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BEEAppearance.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		72AF8A27429CF847261C619E3D7E3F8D /* CATextLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+BEEAppearance.m"; sourceTree = "<group>"; };
-		79DB90F978EF28721908F0B5EE7D9623 /* CAShapeLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+BEEAppearance.m"; sourceTree = "<group>"; };
+		6BFC371F3164C0F78410E3B94B8DB9F7 /* NSObject+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BEEAppearance.h"; sourceTree = "<group>"; };
+		6CEEB3BAFD990292D990BCD5EAF1EF1D /* BEEAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEAppearance.release.xcconfig; sourceTree = "<group>"; };
+		7ADA3B60DB18322E7A22960074A8F5B6 /* CAShapeLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+BEEAppearance.h"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7F9A898E6F42598268825F39DD96A195 /* BEEAppearanceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEEAppearanceManager.m; sourceTree = "<group>"; };
+		844121827E7046539BC310A00C2EA338 /* BEEAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEEAppearance-dummy.m"; sourceTree = "<group>"; };
 		8588789D587954B7C7F9348FE7E4A3DA /* Pods-BEEAppearance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8679C1D4A345A049ACE04E41A49E5362 /* Pods-BEEAppearance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEEAppearance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8B73FF8595E6B3A782F1F40CCC11AF5E /* Pods-BEEAppearance_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEEAppearance_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C3201525B43E4D93BE20258D0AB61F2 /* UIView+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BEEAppearance.m"; sourceTree = "<group>"; };
+		8BFC81CF9EB77D1F007AEB3D835CCE2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8C9F032ACBCB6EC6FA2A10F145E29DC8 /* CAGradientLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+BEEAppearance.h"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		92180F659519AF440EDB6BF24EDAC3E3 /* UIImage+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BEEAppearance.h"; sourceTree = "<group>"; };
+		91EB0533B354D30490E43B518D2FD6C9 /* BEEAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEAppearance-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		977C12BA9E4DA8BADA0D7ADF37F8745A /* BEEAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEEAppearance.debug.xcconfig; sourceTree = "<group>"; };
-		97A4D0EC1764475C40125D09F3073941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9946FC0EB8AE2993D06DE4FE502FAE1A /* Pods-BEEAppearance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		99CCC614D60A9BF088B150275CBB2CF6 /* Pods-BEEAppearance_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A27AF833979030B6E8B7A5A643D3751 /* NSMutableDictionary+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BEEAppearance.m"; sourceTree = "<group>"; };
 		9B5B534B09953BFAA9B0A9A9D809B304 /* Pods-BEEAppearance_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEEAppearance_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A41C2A114F3779473795D57AC7E6B4A3 /* Pods-BEEAppearance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEEAppearance_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A94016E7BA486908F19300E1DD534A7D /* Pods-BEEAppearance_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEEAppearance_Tests.modulemap"; sourceTree = "<group>"; };
 		AA2B1D32F3D2B79CAD66EA113434A8FA /* Pods-BEEAppearance_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACD15E4AEB3603F2630DC5A892DCDA90 /* NSMutableDictionary+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BEEAppearance.h"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B3AC00327A0D9AA0EFE639052A198DEF /* CALayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+BEEAppearance.h"; sourceTree = "<group>"; };
+		B21571D68671A19CB61BB86159E9CA35 /* BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEEAppearance.h; path = BEEAppearance/Classes/BEEAppearance.h; sourceTree = "<group>"; };
+		B254CEFFC0362493331F8B9CF84AEE21 /* BEEAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEAppearance-prefix.pch"; sourceTree = "<group>"; };
+		B31F274048BE7475BFC13F1DCF5B8719 /* CATextLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+BEEAppearance.m"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B9113A5EDE702DE179E57E0948ED0CD1 /* UIColor+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BEEAppearance.m"; sourceTree = "<group>"; };
-		BA7121EC6702F1370A722A48C801CE02 /* BEEAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEEAppearance-umbrella.h"; sourceTree = "<group>"; };
+		B7EAE449E28473E4C9733259C4170808 /* NSObject+BEEAppearanceInteral.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BEEAppearanceInteral.m"; sourceTree = "<group>"; };
+		BB9018B488AF1D433DA4C719CC77198F /* BEEAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEEAppearance.modulemap; sourceTree = "<group>"; };
 		BD1AABC693BC0E220CE83B61D378C3EC /* Pods-BEEAppearance_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEEAppearance_Example-Info.plist"; sourceTree = "<group>"; };
 		C4B6BA4C47D6A87FFFE7660C7C9A6764 /* Pods-BEEAppearance_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEEAppearance_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C5CD6893EC4B7A893D8BE08857110C90 /* BEEAppearanceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEEAppearanceManager.h; sourceTree = "<group>"; };
 		C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C81883369596395E0E66ABC465A972B9 /* BEEAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEEAppearance-dummy.m"; sourceTree = "<group>"; };
+		CB6212EB7F5AE4C5C29A1C68C2093D64 /* CATextLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+BEEAppearance.h"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CCE7DFAF920B7F46813D71C59B88686B /* CAGradientLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+BEEAppearance.m"; sourceTree = "<group>"; };
-		D03AECC168780760B4A4116769D56662 /* Pods_BEEAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEEAppearance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8266912E7620EE84A5D11F55E84960 /* CAGradientLayer+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+BEEAppearance.m"; sourceTree = "<group>"; };
+		D03AECC168780760B4A4116769D56662 /* Pods_BEEAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEEAppearance_Tests.framework; path = "Pods-BEEAppearance_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D3BF51936A2CB4FBDFF31A6786CF5313 /* Pods-BEEAppearance_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEEAppearance_Example-umbrella.h"; sourceTree = "<group>"; };
-		D7AEBF0C2D03172B6E56B83724546C51 /* CAShapeLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+BEEAppearance.h"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DDD7B86D190E9CAA4579938D4E666355 /* NSMutableDictionary+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BEEAppearance.m"; sourceTree = "<group>"; };
-		DF8EC4FC8EA445A6620B2CCA0DF174AE /* CAGradientLayer+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+BEEAppearance.h"; sourceTree = "<group>"; };
-		E07F4A22E4236784A08C34FCAD71D81A /* NSMutableDictionary+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BEEAppearance.h"; sourceTree = "<group>"; };
+		E12DD769E60ADEBD1CF7D5BC117B5EA5 /* NSMutableAttributedString+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BEEAppearance.m"; sourceTree = "<group>"; };
+		E2F50395F43E2C16DC05EEEF7FF0EDA4 /* UIColor+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BEEAppearance.m"; sourceTree = "<group>"; };
 		E441B505BF6E5ADEEB50E853BF9F06ED /* Pods-BEEAppearance_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEEAppearance_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E71ED19C11A86F1CED685CBDCCD817B6 /* Pods-BEEAppearance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEEAppearance_Tests-dummy.m"; sourceTree = "<group>"; };
+		E79EFEE0966B3E68C689F20DD33DFD4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F3622BC41D8F1E0A1EF9422BFFFDE57E /* BEEAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEEAppearance-Info.plist"; sourceTree = "<group>"; };
-		F5C271C0C70577FD9D2E59F33C215BC4 /* Pods_BEEAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEEAppearance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9DDD4E2C14F9F470489942DC99796E1 /* BEEAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEEAppearance.modulemap; sourceTree = "<group>"; };
+		F5C271C0C70577FD9D2E59F33C215BC4 /* Pods_BEEAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEEAppearance_Example.framework; path = "Pods-BEEAppearance_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F711897B2412E227BCBB47AF31C48067 /* UIImage+BEEAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BEEAppearance.h"; sourceTree = "<group>"; };
+		FAE3B571E3D52D0231E419FE20C0215C /* NSObject+BEEAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BEEAppearance.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,12 +187,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14EE09F6CBB80C908E5BAE5B71038739 /* Frameworks */ = {
+		16411B882D964AA810D103B688C88CFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406D62D1924F8D341E694D16B0A52BFB /* Foundation.framework in Frameworks */,
-				2D6EFCB077F0FEFB56E426B67ABDD750 /* UIKit.framework in Frameworks */,
+				5BCC2DA0652813A21FB257E7C220DC2A /* Foundation.framework in Frameworks */,
+				96F8B77E1C4107FF29DFFD5D0EBD5DAE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,56 +218,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DBC42E3BDA7485699ED2B05F1D6E36B /* Extensions */ = {
+		3460481382630D8CCC8E83E4B2AAACC6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DF8EC4FC8EA445A6620B2CCA0DF174AE /* CAGradientLayer+BEEAppearance.h */,
-				CCE7DFAF920B7F46813D71C59B88686B /* CAGradientLayer+BEEAppearance.m */,
-				B3AC00327A0D9AA0EFE639052A198DEF /* CALayer+BEEAppearance.h */,
-				68342837122A22A6D57AD7845607F6B7 /* CALayer+BEEAppearance.m */,
-				D7AEBF0C2D03172B6E56B83724546C51 /* CAShapeLayer+BEEAppearance.h */,
-				79DB90F978EF28721908F0B5EE7D9623 /* CAShapeLayer+BEEAppearance.m */,
-				24DB8BC9306638D524B5E40293653DF9 /* CATextLayer+BEEAppearance.h */,
-				72AF8A27429CF847261C619E3D7E3F8D /* CATextLayer+BEEAppearance.m */,
-				47DF81550F3CA79DE702CD64D32740F6 /* NSMutableAttributedString+BEEAppearance.h */,
-				013007BFACF3846EAE7EF5ADF35F41D6 /* NSMutableAttributedString+BEEAppearance.m */,
-				E07F4A22E4236784A08C34FCAD71D81A /* NSMutableDictionary+BEEAppearance.h */,
-				DDD7B86D190E9CAA4579938D4E666355 /* NSMutableDictionary+BEEAppearance.m */,
-				28875822AC431BBAE733CAEB0181EF9E /* UIView+BEEAppearance.h */,
-				8C3201525B43E4D93BE20258D0AB61F2 /* UIView+BEEAppearance.m */,
-				04CA05E426CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h */,
-				04CA05E526CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m */,
+				8C9F032ACBCB6EC6FA2A10F145E29DC8 /* CAGradientLayer+BEEAppearance.h */,
+				CD8266912E7620EE84A5D11F55E84960 /* CAGradientLayer+BEEAppearance.m */,
+				3EB9A7D5E4CDDDFC8E4BA116958A0356 /* CALayer+BEEAppearance.h */,
+				3D1938A222A6D9407115BF2FB906A981 /* CALayer+BEEAppearance.m */,
+				7ADA3B60DB18322E7A22960074A8F5B6 /* CAShapeLayer+BEEAppearance.h */,
+				0788EBEA64AA9CB0DA8768C73BCD7FB0 /* CAShapeLayer+BEEAppearance.m */,
+				CB6212EB7F5AE4C5C29A1C68C2093D64 /* CATextLayer+BEEAppearance.h */,
+				B31F274048BE7475BFC13F1DCF5B8719 /* CATextLayer+BEEAppearance.m */,
+				1FEB2041E05E4CFDB6D94FC88FACBE82 /* NSMutableAttributedString+BEEAppearance.h */,
+				E12DD769E60ADEBD1CF7D5BC117B5EA5 /* NSMutableAttributedString+BEEAppearance.m */,
+				ACD15E4AEB3603F2630DC5A892DCDA90 /* NSMutableDictionary+BEEAppearance.h */,
+				9A27AF833979030B6E8B7A5A643D3751 /* NSMutableDictionary+BEEAppearance.m */,
+				0A009E6B4D49D95F3F1B0FC7749F1B23 /* NSObject+BEEAppearanceInteral.h */,
+				B7EAE449E28473E4C9733259C4170808 /* NSObject+BEEAppearanceInteral.m */,
+				287324FACC0B4A9F3EE14D85D9276F29 /* UIView+BEEAppearance.h */,
+				5651B8F3DC4C173982921709A9015D12 /* UIView+BEEAppearance.m */,
 			);
 			name = Extensions;
 			path = BEEAppearance/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		17BB55A8B9714B63CA59153A821CBAC9 /* BEEAppearance */ = {
-			isa = PBXGroup;
-			children = (
-				43001FA6797A3D881EC685A50D46F6D4 /* BEEAppearance.h */,
-				508434ADD148393ACF3632C9669D7EF7 /* Core */,
-				0DBC42E3BDA7485699ED2B05F1D6E36B /* Extensions */,
-				CD0E6127F7F6D5D1891711B9E940471C /* Pod */,
-				1FA72B2AAF070C0CF3D3AEA53FF9E1E5 /* Support Files */,
-			);
-			name = BEEAppearance;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1FA72B2AAF070C0CF3D3AEA53FF9E1E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F9DDD4E2C14F9F470489942DC99796E1 /* BEEAppearance.modulemap */,
-				C81883369596395E0E66ABC465A972B9 /* BEEAppearance-dummy.m */,
-				F3622BC41D8F1E0A1EF9422BFFFDE57E /* BEEAppearance-Info.plist */,
-				3C5084C54FB1D67CB518E95F1A792CED /* BEEAppearance-prefix.pch */,
-				BA7121EC6702F1370A722A48C801CE02 /* BEEAppearance-umbrella.h */,
-				977C12BA9E4DA8BADA0D7ADF37F8745A /* BEEAppearance.debug.xcconfig */,
-				5429251520894152661E807ED87C90F5 /* BEEAppearance.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BEEAppearance";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -291,23 +263,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		508434ADD148393ACF3632C9669D7EF7 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				11257CF18C1545B440E77F45851961F9 /* BEEAppearanceDefine.h */,
-				0F13A50569A80861D859B0C9169CC397 /* BEEAppearanceManager.h */,
-				7F9A898E6F42598268825F39DD96A195 /* BEEAppearanceManager.m */,
-				5FAC5AFF47C0BB1532764181B574BF81 /* UIColor+BEEAppearance.h */,
-				B9113A5EDE702DE179E57E0948ED0CD1 /* UIColor+BEEAppearance.m */,
-				92180F659519AF440EDB6BF24EDAC3E3 /* UIImage+BEEAppearance.h */,
-				2D2EEFD33F26A85D526CDB7BC232D41F /* UIImage+BEEAppearance.m */,
-				67F896E770248D19560BED0EAFDA4A6F /* NSObject+BEEAppearance.h */,
-				12624DD24F5DA0E10686F1A20BA40DE5 /* NSObject+BEEAppearance.m */,
-			);
-			name = Core;
-			path = BEEAppearance/Classes/Core;
-			sourceTree = "<group>";
-		};
 		5C6C77E5B184F2D1036C2B09794AA89B /* Pods-BEEAppearance_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +278,44 @@
 			);
 			name = "Pods-BEEAppearance_Example";
 			path = "Target Support Files/Pods-BEEAppearance_Example";
+			sourceTree = "<group>";
+		};
+		5E501C531B503669411ECABABAB3CC04 /* BEEAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				B21571D68671A19CB61BB86159E9CA35 /* BEEAppearance.h */,
+				890FCDFD1DD2CFBB94854D0458CBC9D1 /* Core */,
+				3460481382630D8CCC8E83E4B2AAACC6 /* Extensions */,
+				6BF02D7A3E9A95FCDD37B8EB8DA057F9 /* Pod */,
+				7A3EF6286C5AE5812111CD9AF25C0120 /* Support Files */,
+			);
+			name = BEEAppearance;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6BF02D7A3E9A95FCDD37B8EB8DA057F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66389BE1CAC6098EFF7AD5EC80761C4C /* BEEAppearance.podspec */,
+				E79EFEE0966B3E68C689F20DD33DFD4F /* LICENSE */,
+				8BFC81CF9EB77D1F007AEB3D835CCE2E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7A3EF6286C5AE5812111CD9AF25C0120 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9018B488AF1D433DA4C719CC77198F /* BEEAppearance.modulemap */,
+				844121827E7046539BC310A00C2EA338 /* BEEAppearance-dummy.m */,
+				55C4DFF8F2096155AD9B4D92E5E7814E /* BEEAppearance-Info.plist */,
+				B254CEFFC0362493331F8B9CF84AEE21 /* BEEAppearance-prefix.pch */,
+				91EB0533B354D30490E43B518D2FD6C9 /* BEEAppearance-umbrella.h */,
+				267B1C137B1DDA06B2DC7527FD8B44EA /* BEEAppearance.debug.xcconfig */,
+				6CEEB3BAFD990292D990BCD5EAF1EF1D /* BEEAppearance.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BEEAppearance";
 			sourceTree = "<group>";
 		};
 		861D63EC8ED76DCBE76D675C86886489 /* Targets Support Files */ = {
@@ -349,6 +342,23 @@
 			);
 			name = "Pods-BEEAppearance_Tests";
 			path = "Target Support Files/Pods-BEEAppearance_Tests";
+			sourceTree = "<group>";
+		};
+		890FCDFD1DD2CFBB94854D0458CBC9D1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB751ED9465AC94249A9BD64A51418 /* BEEAppearanceDefine.h */,
+				C5CD6893EC4B7A893D8BE08857110C90 /* BEEAppearanceManager.h */,
+				269081FC1159B2D5D83FDA5887D271B9 /* BEEAppearanceManager.m */,
+				6BFC371F3164C0F78410E3B94B8DB9F7 /* NSObject+BEEAppearance.h */,
+				FAE3B571E3D52D0231E419FE20C0215C /* NSObject+BEEAppearance.m */,
+				67497CAD0AA2BA74088819B6D86780B3 /* UIColor+BEEAppearance.h */,
+				E2F50395F43E2C16DC05EEEF7FF0EDA4 /* UIColor+BEEAppearance.m */,
+				F711897B2412E227BCBB47AF31C48067 /* UIImage+BEEAppearance.h */,
+				0D45F5D742186224C8724B6D351D71BE /* UIImage+BEEAppearance.m */,
+			);
+			name = Core;
+			path = BEEAppearance/Classes/Core;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -396,7 +406,7 @@
 		BAB99A602D5D1C43716EB4610EEA0061 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17BB55A8B9714B63CA59153A821CBAC9 /* BEEAppearance */,
+				5E501C531B503669411ECABABAB3CC04 /* BEEAppearance */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -408,17 +418,8 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		CD0E6127F7F6D5D1891711B9E940471C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				029E4200383B025A3560DD181B96D10D /* BEEAppearance.podspec */,
-				3D64352EF75F2EE9FD1645535533D82F /* LICENSE */,
-				97A4D0EC1764475C40125D09F3073941 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -478,33 +479,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580697F947347296FC405742FA36BE3D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E4BB91D631061E30FEEF32C4A4B8AAF /* BEEAppearance-umbrella.h in Headers */,
-				6D36743E0D09624C45F65F50F8D388B0 /* BEEAppearance.h in Headers */,
-				04CA05E626CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.h in Headers */,
-				C5EAD6DEB992FD1620A664249434501B /* BEEAppearanceDefine.h in Headers */,
-				722C9C44195638952DCC0682B94DEB35 /* BEEAppearanceManager.h in Headers */,
-				F7729CD88CC014F668822A03C126D8E5 /* CAGradientLayer+BEEAppearance.h in Headers */,
-				9A32FCBC4FAD7AA6E039CF6436E9D839 /* CALayer+BEEAppearance.h in Headers */,
-				3420198C7E077253ABE30B3F35F7FFBB /* CAShapeLayer+BEEAppearance.h in Headers */,
-				80EC1619F00B9470A1566C631F3E4EF1 /* CATextLayer+BEEAppearance.h in Headers */,
-				5F4F6A23A93A73854A5177EA5B7BB40A /* NSMutableAttributedString+BEEAppearance.h in Headers */,
-				3211BECA40151F8D0EA50BAF8228DFF6 /* NSMutableDictionary+BEEAppearance.h in Headers */,
-				17B737DBF540CC37FCDC3285FD295405 /* NSObject+BEEAppearance.h in Headers */,
-				5DD804DC221CAF838431629ABBF5B503 /* UIColor+BEEAppearance.h in Headers */,
-				AC2C62423FCF35C70CDCC6E45DDEDF4A /* UIImage+BEEAppearance.h in Headers */,
-				90AFA92F9CF39EA9D3F46D46E20C7197 /* UIView+BEEAppearance.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A49A3E12CC9E7AB2DC97CB83913F80D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3F768F15A7363494BE5A12537F71716A /* Pods-BEEAppearance_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2049CE3B0A6458DB2E3C8F4B44EF705 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579048D07B73241666B1454C8920C92C /* BEEAppearance-umbrella.h in Headers */,
+				E8198100D3405B118F78941B03AE4BF0 /* BEEAppearance.h in Headers */,
+				4F2A67D042FDE86580D61CE82ECF4D71 /* BEEAppearanceDefine.h in Headers */,
+				6FB1B445DBE673E5B86B7ED29652DF62 /* BEEAppearanceManager.h in Headers */,
+				607E08EEBE6B17C3787D12B937937D21 /* CAGradientLayer+BEEAppearance.h in Headers */,
+				B529D3B6AF09177EBE7588A72C2FABB7 /* CALayer+BEEAppearance.h in Headers */,
+				1B307F7D2FC5C45D43EB4BC9434AE8DF /* CAShapeLayer+BEEAppearance.h in Headers */,
+				2C1EEFD48E76B0AEF849A74B6B0E1EA9 /* CATextLayer+BEEAppearance.h in Headers */,
+				1A3371FA58BE63B44BEA76E3B9661BBE /* NSMutableAttributedString+BEEAppearance.h in Headers */,
+				EFCDD5C02232849D5C6A36ECBAEAAB96 /* NSMutableDictionary+BEEAppearance.h in Headers */,
+				2DA4331C4C55F540F35861A13B44E794 /* NSObject+BEEAppearance.h in Headers */,
+				6269EC5480AE1DD8632F64DAADE1E3B6 /* NSObject+BEEAppearanceInteral.h in Headers */,
+				3FE04B0C7AD3B8187A740AB62876E558 /* UIColor+BEEAppearance.h in Headers */,
+				E509EAB67EB55311CCE53246B93906B8 /* UIImage+BEEAppearance.h in Headers */,
+				54B92FF44BB2BA4FB8E7FE1F05125EDD /* UIView+BEEAppearance.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +524,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9C7A347E9BBB8085FEAD578037FB152C /* PBXTargetDependency */,
+				7D019DA869A747DDCAC858FD6C0DBAD1 /* PBXTargetDependency */,
 			);
 			name = "Pods-BEEAppearance_Example";
 			productName = "Pods-BEEAppearance_Example";
@@ -542,8 +543,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				D6F6A8ADE39AB863DC05879A530DF7B2 /* PBXTargetDependency */,
-				A15F57560DE9EBFAF8AA02E7F3CDB03E /* PBXTargetDependency */,
+				79F4180C6937B7809E1C3E5BB81FC50D /* PBXTargetDependency */,
+				9F53B36B4F22FD018FF13CECE5C10856 /* PBXTargetDependency */,
 			);
 			name = "Pods-BEEAppearance_Tests";
 			productName = "Pods-BEEAppearance_Tests";
@@ -570,12 +571,12 @@
 		};
 		D3816B3485017D9C5C562050A1DE8B9B /* BEEAppearance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 612991B1C00300150BD1EA423C39A7DC /* Build configuration list for PBXNativeTarget "BEEAppearance" */;
+			buildConfigurationList = 6A2CBB2B1194E65AD9BEEFCE45A2D42F /* Build configuration list for PBXNativeTarget "BEEAppearance" */;
 			buildPhases = (
-				580697F947347296FC405742FA36BE3D /* Headers */,
-				4091C2801F9EB54DC8280FB54DC72AC4 /* Sources */,
-				14EE09F6CBB80C908E5BAE5B71038739 /* Frameworks */,
-				0D74415CF4DE0795FD73ADA97E18A2E2 /* Resources */,
+				E2049CE3B0A6458DB2E3C8F4B44EF705 /* Headers */,
+				CE7957D1FD5EF144A0FBF0B2CD5F8CA9 /* Sources */,
+				16411B882D964AA810D103B688C88CFE /* Frameworks */,
+				56FF1F8C722DAFE1A5F9BC6D480E069C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -617,14 +618,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D74415CF4DE0795FD73ADA97E18A2E2 /* Resources */ = {
+		20929A363B65D25C63B8920BFD496D2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20929A363B65D25C63B8920BFD496D2F /* Resources */ = {
+		56FF1F8C722DAFE1A5F9BC6D480E069C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -664,26 +665,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4091C2801F9EB54DC8280FB54DC72AC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E40D9AE2FAFF350BF4143B2A7BCBCDE /* BEEAppearance-dummy.m in Sources */,
-				4307091D741AAB3D93217930AD20FBA0 /* BEEAppearanceManager.m in Sources */,
-				4D2872A75976B40356F74110F16F7512 /* CAGradientLayer+BEEAppearance.m in Sources */,
-				94E2BC77EBA958CEF711C1FF65B10265 /* CALayer+BEEAppearance.m in Sources */,
-				704AD53613E8AE8301714747556F84CB /* CAShapeLayer+BEEAppearance.m in Sources */,
-				E1F9CCD56DB6F6675211DCC7E3C6C7B1 /* CATextLayer+BEEAppearance.m in Sources */,
-				DDB9548D7356DBF112A3F9AE25DBE90B /* NSMutableAttributedString+BEEAppearance.m in Sources */,
-				6E9E6E8FFC13FD014071FB0CB68B5430 /* NSMutableDictionary+BEEAppearance.m in Sources */,
-				91D312330040305F3EFD053EC2A5C251 /* NSObject+BEEAppearance.m in Sources */,
-				E015BD66BD4786D0A5D5EF4194A40CAF /* UIColor+BEEAppearance.m in Sources */,
-				04CA05E726CA5F7C00365CF5 /* NSObject+BEEAppearanceInteral.m in Sources */,
-				7B7FB6B271753FEBA00BB1C24CC5C1FE /* UIImage+BEEAppearance.m in Sources */,
-				8D19F9077513B395526315EEB660795E /* UIView+BEEAppearance.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -700,26 +681,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE7957D1FD5EF144A0FBF0B2CD5F8CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082B0F7CEA5509727C64D47866DDC1D3 /* BEEAppearance-dummy.m in Sources */,
+				51F367E2234B29D95B20DA72C8EBBBC6 /* BEEAppearanceManager.m in Sources */,
+				4D8B2CD994C81822AA9FFD99FB9859CD /* CAGradientLayer+BEEAppearance.m in Sources */,
+				84D4F480A3984AC678DB1F14905ABE48 /* CALayer+BEEAppearance.m in Sources */,
+				F9C5B130836454B8E0ED4FD8E42D8A6D /* CAShapeLayer+BEEAppearance.m in Sources */,
+				C85D521385BD4F4FA2D3ED78C3D1E52A /* CATextLayer+BEEAppearance.m in Sources */,
+				B60239DFA2BAFE67CE0316589E6F2727 /* NSMutableAttributedString+BEEAppearance.m in Sources */,
+				7DA468525150E3B94F07E4D78F0F0CD9 /* NSMutableDictionary+BEEAppearance.m in Sources */,
+				471A8481057D08BCE0BE9B29FFCFF47C /* NSObject+BEEAppearance.m in Sources */,
+				1B71A87D3B91CA13C9BB0676C2A92C4E /* NSObject+BEEAppearanceInteral.m in Sources */,
+				FFA3A86C371D5E5F093C5D2CBA585BCE /* UIColor+BEEAppearance.m in Sources */,
+				5A4FE4B92CE3E2FE25FDF6E39A673C33 /* UIImage+BEEAppearance.m in Sources */,
+				824A1EDFBC91D75BECBE76935DDB8F3F /* UIView+BEEAppearance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9C7A347E9BBB8085FEAD578037FB152C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BEEAppearance;
-			target = D3816B3485017D9C5C562050A1DE8B9B /* BEEAppearance */;
-			targetProxy = 170835A6155B30A61AB33B2E67CD233B /* PBXContainerItemProxy */;
-		};
-		A15F57560DE9EBFAF8AA02E7F3CDB03E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-BEEAppearance_Example";
-			target = 189225EAE9FE8526F20C654D15F82F12 /* Pods-BEEAppearance_Example */;
-			targetProxy = F7B76E26A7DE79B40E245D1D21AFA192 /* PBXContainerItemProxy */;
-		};
-		D6F6A8ADE39AB863DC05879A530DF7B2 /* PBXTargetDependency */ = {
+		79F4180C6937B7809E1C3E5BB81FC50D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 98589DDFD0DBAAC31A572D2680C07960 /* PBXContainerItemProxy */;
+			targetProxy = F15BA1525B97DEAE7560A5AE6E4DBA85 /* PBXContainerItemProxy */;
+		};
+		7D019DA869A747DDCAC858FD6C0DBAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEEAppearance;
+			target = D3816B3485017D9C5C562050A1DE8B9B /* BEEAppearance */;
+			targetProxy = 9759D27DC1EB626C6A0793622F3F1E68 /* PBXContainerItemProxy */;
+		};
+		9F53B36B4F22FD018FF13CECE5C10856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BEEAppearance_Example";
+			target = 189225EAE9FE8526F20C654D15F82F12 /* Pods-BEEAppearance_Example */;
+			targetProxy = 89BDE81247D7D12FFE906106EC08B282 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -820,6 +821,37 @@
 			};
 			name = Debug;
 		};
+		4702BD9359A5663D7A5E167AE026893F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEEB3BAFD990292D990BCD5EAF1EF1D /* BEEAppearance.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEEAppearance/BEEAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEEAppearance/BEEAppearance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEEAppearance/BEEAppearance.modulemap";
+				PRODUCT_MODULE_NAME = BEEAppearance;
+				PRODUCT_NAME = BEEAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		556709392378C7068EB9FE38203FE4F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9946FC0EB8AE2993D06DE4FE502FAE1A /* Pods-BEEAppearance_Tests.release.xcconfig */;
@@ -879,37 +911,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FCF9946FF3954ADBE4E77B421C64A94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5429251520894152661E807ED87C90F5 /* BEEAppearance.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BEEAppearance/BEEAppearance-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BEEAppearance/BEEAppearance-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BEEAppearance/BEEAppearance.modulemap";
-				PRODUCT_MODULE_NAME = BEEAppearance;
-				PRODUCT_NAME = BEEAppearance;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1035,7 +1036,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1073,9 +1075,9 @@
 			};
 			name = Debug;
 		};
-		E427C4DEC808EF5A53AADD03478C08C3 /* Debug */ = {
+		E3CE9AE7462D6D5117EB3E3E0D507515 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 977C12BA9E4DA8BADA0D7ADF37F8745A /* BEEAppearance.debug.xcconfig */;
+			baseConfigurationReference = 267B1C137B1DDA06B2DC7527FD8B44EA /* BEEAppearance.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1115,11 +1117,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		612991B1C00300150BD1EA423C39A7DC /* Build configuration list for PBXNativeTarget "BEEAppearance" */ = {
+		6A2CBB2B1194E65AD9BEEFCE45A2D42F /* Build configuration list for PBXNativeTarget "BEEAppearance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E427C4DEC808EF5A53AADD03478C08C3 /* Debug */,
-				9FCF9946FF3954ADBE4E77B421C64A94 /* Release */,
+				E3CE9AE7462D6D5117EB3E3E0D507515 /* Debug */,
+				4702BD9359A5663D7A5E167AE026893F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
