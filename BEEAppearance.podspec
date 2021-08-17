@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'BEEAppearance'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A theme programme of BEEAppearance.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 一个主题切换库.
                        DESC
   s.homepage         = 'https://github.com/liuxc123/BEEAppearance'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

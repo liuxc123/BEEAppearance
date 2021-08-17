@@ -1,8 +1,8 @@
 {
   "name": "BEEAppearance",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "summary": "A theme programme of BEEAppearance.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: 一个主题切换库.",
   "homepage": "https://github.com/liuxc123/BEEAppearance",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/liuxc123/BEEAppearance.git",
-    "tag": "0.0.1"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
