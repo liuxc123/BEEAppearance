@@ -158,6 +158,11 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     [self.trackedHashTable addObject:object];
 }
 
+- (void)removeTrackedWithObject:(id)object {
+    
+    [self.trackedHashTable removeObject:object];
+}
+
 - (void)setCurrentTheme:(NSString *)currentTheme {
     _currentTheme = currentTheme;
     

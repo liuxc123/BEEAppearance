@@ -8,7 +8,7 @@
 
 #import "BEESecondViewController.h"
 #import "BEEAppearance.h"
-#import "BEEAppearanceDefine.h"
+#import "ThemeConstant.h"
 
 @interface BEESecondViewController ()
 
@@ -23,16 +23,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"Second";
-    self.view.backgroundColor = BEEAppearanceColor(@"backgroundColor");
-    
-    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectZero];
-    textView.frame = CGRectMake(0, 88, self.view.frame.size.width, 200);
-    textView.font = [UIFont systemFontOfSize:17];
-    self.textView = textView;
-    [self.view addSubview:textView];
-    
-    textView.backgroundColor = BEEAppearanceColor(@"backgroundColor");
-    textView.textColor = BEEAppearanceColor(@"textLabel1");
+    self.view.backgroundColor = BEEAppearanceColor(theme_backgroundColor);
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    if ([[BEEAppearanceManager sharedManager].currentTheme isEqualToString:theme_style_dark]) {
+        [[BEEAppearanceManager sharedManager] changeTheme:theme_style_default];
+    } else {
+        [[BEEAppearanceManager sharedManager] changeTheme:theme_style_dark];
+    }
 }
 
 @end

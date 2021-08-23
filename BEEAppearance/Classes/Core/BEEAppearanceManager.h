@@ -27,6 +27,7 @@ static NSString * const ThemeDidChangeNotification = @"ThemeDidChangeNotificatio
 + (instancetype)sharedManager;
 
 - (void)addTrackedWithObject:(id)object;
+- (void)removeTrackedWithObject:(id)object;
 
 - (void)defaultTheme:(NSString *)themeName;
 - (void)addTheme:(NSDictionary<NSString*, NSDictionary<NSString*, NSString*>*> *)config themeName:(NSString *)name;

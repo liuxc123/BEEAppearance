@@ -22,19 +22,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     [self setupNavigationBar];
-    
+
     [self setupUI];
-    
+
     [self setupNotification];
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSLog(@"%@", [[BEEAppearanceManager sharedManager] debugDescription]);
 }
 
 - (void)setupNavigationBar {
     self.title = @"Main";
     
-    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: BEEAppearanceColor(@"textLabel1")};
-    self.navigationController.navigationBar.tintColor = BEEAppearanceColor(@"textLabel1");
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: BEEAppearanceColor(theme_textlabel1)};
+    self.navigationController.navigationBar.tintColor = BEEAppearanceColor(theme_textlabel1);
     
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"添加主题" style:UIBarButtonItemStyleDone target:self action:@selector(rightItemAction)];
     self.navigationItem.rightBarButtonItem = item;
@@ -53,7 +59,7 @@
 - (void)setupUI {
     CGFloat centerX = CGRectGetWidth(self.view.frame) / 2;
     
-    self.view.backgroundColor = BEEAppearanceColor(@"backgroundColor");
+    self.view.backgroundColor = BEEAppearanceColor(theme_backgroundColor);
     
     // 滑动视图
     
@@ -74,7 +80,7 @@
     
     [self.scrollView addGestureRecognizer:tap];
     
-    self.scrollView.backgroundColor = BEEAppearanceColor(@"backgroundColor");
+    self.scrollView.backgroundColor = BEEAppearanceColor(theme_backgroundColor);
 
     
     // view
@@ -93,8 +99,8 @@
     
     [self.scrollView addSubview:view];
     
-    view.backgroundColor = BEEAppearanceColor(@"backgroundColor");
-    view.layer.borderColor = BEEAppearanceCGColor(@"textLabel3");
+    view.backgroundColor = BEEAppearanceColor(theme_backgroundColor);
+    view.layer.borderColor = BEEAppearanceCGColor(theme_textlabel3);
     
     // button
     
@@ -120,8 +126,8 @@
     
     [self.scrollView addSubview:button];
     
-    [button setTitleColor:BEEAppearanceColor(@"textLabel1") forState:UIControlStateNormal];
-    [button setTitleColor:BEEAppearanceColor(@"textLabel3") forState:UIControlStateDisabled];
+    [button setTitleColor:BEEAppearanceColor(theme_textlabel1) forState:UIControlStateNormal];
+    [button setTitleColor:BEEAppearanceColor(theme_textlabel3) forState:UIControlStateDisabled];
 
     
     // imageView
@@ -149,7 +155,7 @@
     
     [self.scrollView addSubview:slider];
     
-    [slider setMinimumTrackTintColor:BEEAppearanceColor(@"textLabel1")];
+    [slider setMinimumTrackTintColor:BEEAppearanceColor(theme_textlabel1)];
     
     
     // switch
@@ -160,7 +166,11 @@
     
     [self.scrollView addSubview:switchItem];
     
-    switchItem.tintColor = BEEAppearanceColor(@"textLabel2");
+    switchItem.tintColor = BEEAppearanceColor(theme_textlabel2);
+    
+    switchItem.themeDidChange = ^(NSString * _Nonnull themeName, id  _Nonnull bindView) {
+        
+    };
     
     // textfield
     
@@ -178,10 +188,10 @@
     
     textfield.layer.cornerRadius = 10;
     textfield.layer.borderWidth = 1.0;
-    textfield.layer.borderColor = BEEAppearanceCGColor(@"textLabel3");
-    textfield.backgroundColor = BEEAppearanceColor(@"backgroundColor");
-    textfield.textColor = BEEAppearanceColor(@"textLabel1");
-    textfield.attributedPlaceholder = [[NSMutableAttributedString alloc] initWithString:@"这是一个输入框" attributes:@{NSForegroundColorAttributeName: BEEAppearanceColor(@"textLabel3")}];
+    textfield.layer.borderColor = BEEAppearanceCGColor(theme_textlabel3);
+    textfield.backgroundColor = BEEAppearanceColor(theme_backgroundColor);
+    textfield.textColor = BEEAppearanceColor(theme_textlabel1);
+    textfield.attributedPlaceholder = [[NSMutableAttributedString alloc] initWithString:@"这是一个输入框" attributes:@{NSForegroundColorAttributeName: BEEAppearanceColor(theme_textlabel3)}];
 
     
     [self.scrollView setContentSize:CGSizeMake(self.scrollView.frame.size.width, 560)];
