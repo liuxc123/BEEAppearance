@@ -28,7 +28,7 @@
 
 - (void)bee_didMoveToSuperview {
     [self bee_didMoveToSuperview];
-    [[BEEAppearanceManager sharedManager] addTrackedWithObject:self];
+    [BEEAppearanceManager addTrackedWithObject:self];
 }
 
 - (void)setBee_backgroundColor:(UIColor *)bee_backgroundColor {

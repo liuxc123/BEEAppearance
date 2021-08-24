@@ -17,6 +17,7 @@ extern UIImage* BEEAppearanceImage(NSString *imageName);
 
 static NSString * const ThemeDidChangeNotification = @"ThemeDidChangeNotification";
 
+NS_SWIFT_NAME(AppearanceManager)
 @interface BEEAppearanceManager : NSObject
 
 @property (nonatomic, strong, readonly) NSString *currentTheme;
@@ -26,13 +27,13 @@ static NSString * const ThemeDidChangeNotification = @"ThemeDidChangeNotificatio
 
 + (instancetype)sharedManager;
 
-- (void)addTrackedWithObject:(id)object;
-- (void)removeTrackedWithObject:(id)object;
++ (void)addTrackedWithObject:(id)object;
++ (void)removeTrackedWithObject:(id)object;
 
-- (void)defaultTheme:(NSString *)themeName;
-- (void)addTheme:(NSDictionary<NSString*, NSDictionary<NSString*, NSString*>*> *)config themeName:(NSString *)name;
-- (void)removeTheme:(NSString *)themeName;
-- (void)changeTheme:(NSString *)themeName;
++ (void)defaultTheme:(NSString *)themeName;
++ (void)addTheme:(NSDictionary<NSString*, NSDictionary<NSString*, NSString*>*> *)config themeName:(NSString *)name;
++ (void)removeTheme:(NSString *)themeName;
++ (void)changeTheme:(NSString *)themeName;
 
 + (NSDictionary *)themeConfig:(NSString *)themeName;
 + (UIColor *)themeColor:(NSString *)colorName;

@@ -66,6 +66,22 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
 
 #pragma mark - public methods
 
++ (void)defaultTheme:(NSString *)themeName {
+    [[BEEAppearanceManager sharedManager] defaultTheme:themeName];
+}
+
++ (void)addTheme:(NSDictionary<NSString*, NSDictionary<NSString*, NSString*>*> *)config themeName:(NSString *)name {
+    [[BEEAppearanceManager sharedManager] addTheme:config themeName:name];
+}
+
++ (void)removeTheme:(NSString *)themeName {
+    [[BEEAppearanceManager sharedManager] removeTheme:themeName];
+}
+
++ (void)changeTheme:(NSString *)themeName {
+    [[BEEAppearanceManager sharedManager] changeTheme:themeName];
+}
+
 - (void)defaultTheme:(NSString *)themeName {
     
     NSAssert([[BEEAppearanceManager sharedManager].configInfo.allKeys containsObject:themeName], @"所启用的主题不存在 - 请检查是否添加了该%@主题的设置" , themeName);
@@ -153,14 +169,14 @@ UIImage* BEEAppearanceImage(NSString *imageName) {
     }
 }
 
-- (void)addTrackedWithObject:(id)object {
++ (void)addTrackedWithObject:(id)object {
     
-    [self.trackedHashTable addObject:object];
+    [[BEEAppearanceManager sharedManager].trackedHashTable addObject:object];
 }
 
-- (void)removeTrackedWithObject:(id)object {
++ (void)removeTrackedWithObject:(id)object {
     
-    [self.trackedHashTable removeObject:object];
+    [[BEEAppearanceManager sharedManager].trackedHashTable removeObject:object];
 }
 
 - (void)setCurrentTheme:(NSString *)currentTheme {

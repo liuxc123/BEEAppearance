@@ -37,10 +37,10 @@
 - (void)setupTheme {
     
     NSDictionary *defaultThemeConfig = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"theme_default" ofType:@"plist"]];
-    [[BEEAppearanceManager sharedManager] addTheme:defaultThemeConfig themeName: theme_style_default];
+    [BEEAppearanceManager addTheme:defaultThemeConfig themeName: theme_style_default];
 
     NSDictionary *darkThemeConfig = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"theme_dark" ofType:@"plist"]];
-    [[BEEAppearanceManager sharedManager] addTheme:darkThemeConfig themeName: theme_style_dark];
+    [BEEAppearanceManager addTheme:darkThemeConfig themeName: theme_style_dark];
 }
 
 @end

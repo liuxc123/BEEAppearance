@@ -15,9 +15,9 @@
 - (void)setThemeDidChange:(void (^)(NSString*, id))themeDidChange {
     objc_setAssociatedObject(self, @selector(themeDidChange), themeDidChange, OBJC_ASSOCIATION_COPY_NONATOMIC);
     if (themeDidChange) {
-        [[BEEAppearanceManager sharedManager] addTrackedWithObject:self];
+        [BEEAppearanceManager addTrackedWithObject:self];
     } else {
-        [[BEEAppearanceManager sharedManager] removeTrackedWithObject:self];
+        [BEEAppearanceManager removeTrackedWithObject:self];
     }
 }
 

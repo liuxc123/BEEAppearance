@@ -11,3 +11,7 @@ target 'BEEAppearance_Example' do
     pod 'FBSnapshotTestCase'
   end
 end
+
+target 'BEEAppearanceSwift' do
+  pod 'BEEAppearance', :path => '../'
+end

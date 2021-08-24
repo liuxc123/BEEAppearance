@@ -28,9 +28,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     if ([[BEEAppearanceManager sharedManager].currentTheme isEqualToString:theme_style_dark]) {
-        [[BEEAppearanceManager sharedManager] changeTheme:theme_style_default];
+        [BEEAppearanceManager changeTheme:theme_style_default];
     } else {
-        [[BEEAppearanceManager sharedManager] changeTheme:theme_style_dark];
+        [BEEAppearanceManager changeTheme:theme_style_dark];
     }
 }
 

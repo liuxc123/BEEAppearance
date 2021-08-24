@@ -207,9 +207,9 @@
     
     [UIView animateWithDuration:0.27 animations:^{
         if ([[BEEAppearanceManager sharedManager].currentTheme isEqualToString: theme_style_default]) {
-            [[BEEAppearanceManager sharedManager] changeTheme:theme_style_dark];
+            [BEEAppearanceManager changeTheme:theme_style_dark];
         } else {
-            [[BEEAppearanceManager sharedManager] changeTheme:theme_style_default];
+            [BEEAppearanceManager changeTheme:theme_style_default];
         }
     }];
 }

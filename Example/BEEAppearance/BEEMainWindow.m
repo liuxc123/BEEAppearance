@@ -27,13 +27,13 @@
                 switch (self.traitCollection.userInterfaceStyle) {
                     case UIUserInterfaceStyleLight:
                         
-                        [[BEEAppearanceManager sharedManager] defaultTheme:theme_style_default];
+                        [BEEAppearanceManager defaultTheme:theme_style_default];
                         
                         break;
                         
                     case UIUserInterfaceStyleDark:
                         
-                        [[BEEAppearanceManager sharedManager] defaultTheme: theme_style_dark];
+                        [BEEAppearanceManager defaultTheme: theme_style_dark];
                         
                         break;
                         
@@ -57,13 +57,13 @@
             switch (self.traitCollection.userInterfaceStyle) {
                 case UIUserInterfaceStyleLight:
                     
-                    [[BEEAppearanceManager sharedManager] changeTheme: theme_style_default];
+                    [BEEAppearanceManager changeTheme: theme_style_default];
                     
                     break;
                     
                 case UIUserInterfaceStyleDark:
                     
-                    [[BEEAppearanceManager sharedManager] changeTheme: theme_style_dark];
+                    [BEEAppearanceManager changeTheme: theme_style_dark];
                     
                     break;
                     
