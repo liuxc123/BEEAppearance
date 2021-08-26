@@ -70,8 +70,7 @@ self.view.themeDidChange = { themeName, bindView in
 
 ## 安装
 
-BEEAppearance is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+cocoapod安装
 
 ```ruby
 pod 'BEEAppearance'
