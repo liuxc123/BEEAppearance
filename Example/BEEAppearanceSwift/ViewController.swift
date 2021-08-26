@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = BEEAppearanceColor("backgroundColor")
         self.view.addSubview(imageView)
         self.imageView.image = BEEAppearanceImage("car")
+        
+        self.view.themeDidChange = { themeName, bindView in
+            /// XXX
+        }
     }
     
     override func viewWillLayoutSubviews() {
